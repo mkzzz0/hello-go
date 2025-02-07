@@ -1,8 +1,24 @@
 # hello-go
-This repository contains nginx and go "Hello world!" web-app
-To run this program please make some steps below
-1. Clone or download this repository. (git clone "repo name")
-2. To run this program you need to install docker and docker-compose packages. Also we use alpine image to save some disk space. (apt/yum install docker docker-compose)
-3. Change directory to "Hello-go" (cd Hello-go)
-4. Build the images and start docker containers. (docker compose up -d)
-5. Open in browser http://localhost:7777
+# Go Web App with Nginx in Docker
+
+## Description
+This repository contains a Go web application with Nginx page that displays "Hello World!".
+
+## Running the Project
+
+Follow these steps to run the application locally:
+
+1. Clone or download this repository:
+   git clone <REPOSITORY_URL>
+   cd Hello-go
+   
+2. Install Docker and Docker Compose if they are not already installed:
+   
+   apt install docker docker-compose  # For Debian/Ubuntu
+   yum install docker docker-compose  # For CentOS/RHEL
+   
+3. Build the images and start the containers:
+   
+   docker-compose up -d
+   
+4. Open `http://localhost:7777` in your browser.
