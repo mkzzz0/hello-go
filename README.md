@@ -10,7 +10,7 @@ Follow these steps to run the application locally:
 
 1. Clone or download this repository:
    git clone <REPOSITORY_URL>
-   cd Hello-go
+   cd hello-go
    
 2. Install Docker and Docker Compose if they are not already installed:
    
