@@ -21,4 +21,4 @@ Follow these steps to run the application locally:
    
    docker-compose up -d
    
-4. Open `http://localhost:7777` in your browser.
+4. Open `http://localhost` in your browser.

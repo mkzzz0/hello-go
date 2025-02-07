@@ -2,8 +2,8 @@
 services:
   hello-world-go:
     build: .
-    ports:
-      - "7777:7777"
+#    ports:
+#      - "7777:7777"
   nginx:
     image: nginx:alpine
     volumes:
